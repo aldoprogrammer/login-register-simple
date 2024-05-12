@@ -1,0 +1,23 @@
+{
+  "name": "aldo-alert",
+  "version": "1.0.5",
+  "description": "cool alert and fully responsive",
+  "main": "AldoAlertProvider.jsx",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldoprogrammer/aldo-alert.git"
+  },
+  "keywords": [
+    "alert"
+  ],
+  "author": "Aldo Lata Soba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldoprogrammer/aldo-alert/issues"
+  },
+  "homepage": "https://github.com/aldoprogrammer/aldo-alert#readme",
+  "yalcSig": "fa8e5bf212cf0552a5c3de8d82fbf55e"
+}
