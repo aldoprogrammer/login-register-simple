@@ -4,6 +4,7 @@
     right: 2rem;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
+    transition-delay: 0.3s; /* Delay the transition */
 }
 
 .toast-container-visible {
@@ -20,7 +21,21 @@
     position: relative;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
+    width: 230px; /* Default width */
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+@media (min-width: 768px) { /* Medium-sized screens */
+    .toast {
+        width: 220px; /* Width for medium-sized screens */
+    }
+}
+
+/* Other styles remain unchanged */
+
 
 .toast-container-visible .toast {
     opacity: 1;

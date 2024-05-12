@@ -13,7 +13,7 @@ function Login() {
     // For simplicity, assume login is successful if both fields are filled
     if (username && password) {
       setLoggedIn(true);
-      showAldoAlert('Hello, this is a toast message!', 'success');
+      showAldoAlert('Hello, this is a toast message!', 'danger');
 
     } else {
       alert('Please enter both username and password.');

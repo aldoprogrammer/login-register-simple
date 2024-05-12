@@ -23,10 +23,11 @@ export const AldoAlertProvider = ({ children }) => {
             {children}
             <div className={`toast-container ${visible ? 'toast-container-visible' : ''}`}>
                 {toast && (
-                    <div className={`toast ${toast.type}`}>
+                    <div className={`toast toast-${toast.type}`}>
                         <p>{toast.message}</p>
                     </div>
                 )}
+
             </div>
         </ToastContext.Provider>
     );
